@@ -14,3 +14,10 @@ Second, you will need to install some python dependencies which you may not have
 When the script asks to save the credentials, it will save them in a JSON file in the root folder of the project. **YOUR USERNAME AND PASSWORD WILL BE STORED IN PLAIN TEXT**. Just take this into account and choose not to save your credentials if you don't like how they will be stored.
 
 Your restream login will be stored in the chrome_data folder. The script will create a chrome_data dir which is separate from your own day-to-day Chrome profile. This means your Restream login will not be available in your normal Chrome instances and vice-versa. Both login.json and chrome_data are safe to delete, but you will reset the Instagram and Restream logins respectively if you do so.
+
+## Files
+```instagram_live_streamer_main.py``` is the main file. You should run this file.
+
+```instagram_live_controls.py``` contains the functions which control the Instagram API.
+
+```restream_control.py``` contains the functions which control the Restream and Selenium side.
